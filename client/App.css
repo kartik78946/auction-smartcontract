@@ -1,0 +1,132 @@
+.App {
+  text-align: center;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  /* backgroundPosition: 'center',
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat' */
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("F:/chain/auction block/client/src/auction1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.middle{
+  //background-image: url("F:/chain/auction block/client/src/auction2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+.bloder{
+  font-weight: bold;
+  font-size: 20px;
+  color: #1a001a;
+}
+.App-link {
+  color: #09d3ac;
+}
+
+.container1{
+  display: flex;
+  justify-content: space-around;
+}
+.result-table{
+  text-align: center;
+  margin:auto;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+table tr{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  border: 1px solid black;
+  background-color: #d9d9d9;
+  color: #404040;
+  font-size: 20px;
+}
+tr,th{
+  padding: 10px;
+  border-collapse: collapse;
+  text-align: left;
+}
+.container11{
+  border: 2px solid red;
+  width: 350px;
+  height: 650px;
+}
+.container11-1{
+  border: 2px solid black;
+  height: 280px;
+  width: 300px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.container11-2{
+  border: 2px solid black;
+  height: 230px;
+  width: 300px;
+  margin: auto;
+
+}
+label{
+  text-align: center;
+  margin-top: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+ input{
+   margin-bottom: 10px;
+   font-family: 'Open Sans', sans-serif;
+   width: 80%;
+   height: 30px;
+   padding-left: 10px;
+   font-size: 15px;
+}
+button{
+  padding: 10px;
+  margin: 10px;
+  border-style: none;
+  background-color:#99ddff;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  height: 50px;
+  width:150px;
+  font-weight:bold;
+}
+button:hover{
+  color:#0077b3;
+  background-color: white;
+}
+.container12{
+  border: 2px solid red;
+  width: 370px;
+  height: 820px;
+  flex-wrap: wrap;
+}
+.container12-1{
+  border: 2px solid black;
+  width: 310px;
+  height: 220px;
+  padding-top: 30px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.container12-11{
+  border: 2px solid black;
+  width: 310px;
+  height: 220px;
+  padding-top: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
